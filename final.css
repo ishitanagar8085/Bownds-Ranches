@@ -1,0 +1,461 @@
+@font-face{
+    font-family: america;
+    src: url(./GT-America-Compressed-Bold\(1\).ttf)
+}
+@font-face{
+    font-family: america-b;
+src: url(./GT-America-Compressed-Black-Trial.otf);
+
+}
+@font-face{
+    font-family: amer;
+    src:url(./GT-America-Standard-Regular-Trial.otf );
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -13px;
+    z-index: 99;
+
+}
+#nav h3{
+    font-size: 22px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-family: america;
+    color: #C45508;
+    
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://cdn.sanity.io/images/sjvffa0f/production/b66561b8981387290c0f682665512759c66aa7bb-2880x1796.png/image.png?rect=1,0,2879,1796&bg=F2F1EC&w=2650&h=1653&auto=format);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+   position: relative;
+}
+#page1 svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    scale: 1.5;
+}
+#page1 h1{
+    font-size: 11vw;
+   position: absolute;
+bottom: 0;
+   text-transform: uppercase;
+   font-family: america-b;
+   color: #C45508;
+   scale: 1.26;
+ padding-left: 150px;
+ text-align: center;
+
+ 
+ 
+}
+#overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+}
+#scroll{
+    background-image: url(https://bowndsranches.com/textures/buttonDarkBg.svg);
+    color: aliceblue;
+    position: absolute;
+    scale: .9;
+    padding: 8px 20px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    font-family: america;
+    transition: all linear 0.4s;
+}
+#page1 h1::before{
+    position: absolute;
+    font-size: .7vw;
+    text-transform: uppercase;
+content: "bownch ranches.est.1885";
+font-family: america-b;
+left: 10.7vw;
+font-weight: 8;
+letter-spacing: 9;
+
+}
+#page1 h1::after{
+    position: absolute;
+    font-size: .7vw;
+    font-family: america-b;
+    text-transform: uppercase;
+    content: "marketing and selling market texes ranches";
+    right: 2.7vw;
+   font-weight: 8;
+   top: 3%;
+   letter-spacing: 9;
+}
+#page2{
+    position: relative;
+    width: 100%;
+   height: 265vh;
+    background-color: #fff;
+    background-position: center;
+    
+    background-image: url(https://cdn.sanity.io/images/sjvffa0f/production/217c65c6aa3412acac7b3d2fa8adc9020e487780-2724x1936.jpg/map.jpg?rect=0,1,2724,1935&w=1440&h=1023&auto=format);
+}
+#page2 h1{
+    text-transform: uppercase;
+    position:absolute;
+   font-size: 13vw;
+   font-family: america-b;
+   font-weight: 80;
+   line-height: 9.7vw;
+ padding: 100px;
+ justify-content: center;
+ align-items: center;
+ letter-spacing: -10px;
+ line-height: .9;
+ z-index: 97;
+}
+#page2 img {
+    position: relative;
+    left: 58vw;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    height: 900px;
+  
+    top: 50%;
+    z-index: 98;
+   rotate: -5deg;
+   
+}
+#page2 #yellowtag img{
+    position: absolute;
+    height: 200px;
+    top: 36%;
+    left: 78vw;
+}
+#page2 h2{
+    text-transform: uppercase;
+    position:absolute;
+   font-size: 13vw;
+   font-family: america-b;
+   font-weight: 80;
+   line-height: 9.7vw;
+ padding: 100px;
+ justify-content: center;
+ align-items: center;
+ letter-spacing: -9px;
+ line-height: .9;
+ z-index: 99;
+ top: 66%;
+ text-align: center;
+}
+#page3 { 
+    position: relative;
+    height: 135vh;
+    width: 100%;
+    background-color: #111;
+  padding: 100px 120px;
+}
+#page3 h1{
+    position: relative;
+    top: 21%;
+    font-size: 9vw;
+    letter-spacing: -5px;
+    word-spacing: 0px;
+    line-height: 8vw;
+    font-family: america-b;
+    text-align: center;
+    text-transform: uppercase;
+  font-weight: 80;
+  color: #fff;
+}
+#page3 h2{
+    position: relative;
+    top: 23%;
+    font-size: 9vw;
+    letter-spacing: -5px;
+    word-spacing: 0px;
+    line-height: 8vw;
+    font-family: america;
+    text-align: center;
+    font-family: 80;
+    text-transform: uppercase;
+   color: #fff;
+}
+#page3 p{
+    position: relative;
+    top: 25%;
+    font-size: 1.2vw;
+    text-align: center;
+    word-spacing: 0px;
+    line-height: 2vw;
+    font-family: gilroy;
+   left: 28%;
+   font-weight: 600;
+   color: #cec0c0;
+   width: 50%;
+}
+#page3 img{
+   height: 80px;
+   position: absolute;
+   width: 11%;
+}
+#page3>button
+{
+
+     height: 43px;
+     width: 11%;
+     position: absolute;
+     background-color: #fff;
+     font-size: 15px;
+    text-transform: uppercase;
+    padding: 5px 5px;
+   
+}
+#page4{
+    position: relative;
+    min-height:100vh;
+    width: 100%;
+    background-color: #111;
+   padding: 100px 0;
+}
+
+    
+.elem{
+    border-top: 1px solid #ffffffc1;
+    position: relative;
+   
+    margin-top: -20px;
+}
+.elem h1{
+    font-size: 150px ;
+    text-align: center;
+    font-family: america;
+    text-transform: uppercase;
+    color: #cec0c0;
+    margin-bottom: 6px;
+
+}
+.elem{
+    font-size: 130px;
+    color: #fff;
+    text-align: center;
+    transition: opacity ease 0.1s;
+    text-transform: uppercase;
+}
+
+#page4>img {
+    height: 300px;
+    position: absolute;
+    width: 250px;
+    z-index: 9;
+
+}
+#moving-text{
+       /* background-color: #111; */
+       white-space: nowrap;
+       overflow-x: auto;
+       overflow-y: hidden;
+       position: absolute;
+       top: -50%;
+       transition: opacity ease 0.1s;
+       text-align: center;
+    }
+#moving-text h2{
+    display: inline-block;
+  margin-left:-25px;
+animation-name: move-txt;
+font-family: america;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+position: relative;
+padding: 70px;
+top: 0;
+opacity: 0;
+font-size: 150px;
+margin-top: 6px;
+animation-duration: 10s;
+}  
+    
+@keyframes move-txt {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }}
+
+.elem:hover #moving-text h2{
+    opacity: 1;
+}    
+.elem:hover h1{
+    opacity: 0;
+}
+#moving-text img{
+    position:absolute;
+    top: 45%;
+    rotate: 48deg;
+    right: 2%;
+   height: 30px;
+
+   transition: all linear 0.4s;
+  
+}
+
+#page4>button{
+    background-image: url(https://bowndsranches.com/textures/buttonBg.svg);
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 20px;
+    font-family: america;
+    position: absolute;
+    z-index: 99;
+    left: 0%;
+    top: 200%;
+}
+#page5{
+    position: relative;
+    width: 100%;
+    background-color: #111;
+    height: 100vh;
+     
+
+}
+#page5 img{
+    position: absolute;
+    top: 19%;
+    left: 28vw;
+    
+}
+#page5>h6{
+    position: absolute;
+    text-transform: uppercase;
+    top: 23%;
+    left: 28vw;
+    color: #000000;
+    rotate: -20deg;
+    font-family: gilroy;
+}
+
+#page6{
+    position: relative;
+    width: 100%;
+    background-color: #111;
+    height: 100vh;
+
+}
+
+#page5 h1{
+    font-family: america;
+    font-size: 200px;
+    text-transform: uppercase;
+    color: #dcdcdc;
+    position: relative;
+    text-align: center;
+    letter-spacing: -5px;
+    line-height: 164px;
+    font-weight: 500; 
+  
+} 
+#nav5a{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 250px 250px;
+    margin-top: -230px;
+}
+#nav5a h6{
+   
+    color: #fff;
+    text-transform: uppercase;
+     font-size: 12px;
+    font-family: gilroy;
+    font-weight: 500;
+}
+#nav5b{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    font-family: america;
+    text-transform: uppercase;
+    font-size: 55px;
+    text-align: center;
+    word-spacing: .4px;
+   letter-spacing: 1px;
+   margin-top: -200px;
+   line-height: 34px;
+}
+#nav5b h6{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 90px 90px;
+    font-weight: 500;
+}
+#nav5c{
+    color: #fff;
+    display: flex;
+    justify-content:center;
+    font-family: america;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    word-spacing: .4px;
+   letter-spacing: 1px;
+   gap: 15%;
+   line-height: 35px;
+   margin-top: -70px;
+
+}
+
+#nav5c h5{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+#page6{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page6 #div1{
+    
+  height: 450px;
+  width: 650px;
+  position: absolute;
+    background-image: url("https://cdn.sanity.io/images/sjvffa0f/production/336838d48da46ea806426b4185e7f8a87262a6a5-1521x974.png/image.png?rect=1,0,1520,974&bg=F2F1EC&w=1024&h=656&auto=format");
+   rotate: -5deg;
+   background-size: cover;
+ background-position: center;
+
+}
+#page6 #div2{
+    height: 450px;
+    width: 650px;
+    position: absolute;
+      background-image: url("https://cdn.sanity.io/images/sjvffa0f/production/ac5d899c94acdca5124d1fcfb738940892e29544-1520x973.png/image.png?rect=0,1,1520,972&bg=F2F1EC&w=1024&h=655&auto=format");
+      rotate:-10deg;
+     background-size: cover;
+   background-position: center;
+  
+}
